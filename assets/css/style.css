@@ -39,8 +39,28 @@ header li:last-child {
   border-radius: 50%;
 }
 
+input {
+  border-color: #CCCCCC;
+  height: 2.5rem;
+  width: 20vw;
+  box-sizing: border-box;
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+}
+
+.search-btn {
+  background-color: #F8F8F8;
+  border-color: #CCCCCC;
+  height: 2.5rem;
+  padding: 0rem 1rem;
+}
+
 main {
   margin: 1rem 0rem 0rem 4.5rem;
+  display: flex;
 }
 
 main p {
@@ -96,4 +116,39 @@ h4 {
 
 .video-specs .circle, .video-specs a {
   margin-right: 0.5rem;
+}
+
+aside {
+  margin-left: 2rem;
+}
+
+.mini-video {
+  display: flex;
+  margin: 1rem 0rem;
+}
+
+.mini-video:first-child {
+  margin-top: 0rem;
+}
+
+.mini-screen {
+  background-color: #131313;
+  width: 15vw;
+  height: 15vh;
+}
+
+.mini-video h4 {
+  font-size: 14px;
+}
+
+.mini-video p {
+  font-size: 12px;
+}
+
+.mini-video-specs {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: 1rem;
+  padding-right: 2rem;
 }
